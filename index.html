@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deezer</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="module" src="js.mjs"></script>
+    <link rel="icon" href="imagenes/icono.ico">
+</head>
+<body>
+    <!--menu-->
+    <nav class="menu-normal">
+        <a href="imagenes/logo.png" class="enlace">
+            <img src="imagenes/logo.png" alt="">
+        </a>
+        <ul>
+            <li><a href="" class="planes">Planes</a></li>
+            <li><a href="" class="ventajas">Ventajas</a></li>
+            <li><a href="" class="musica">Música</a></li>
+            <li><a href="" class="iniciar">INICIAR SESIÓN</a></li>
+            <li><a href="" class="registrarse">REGISTRARSE</a></li>
+        </ul>
+    </nav>
+    <nav class="menu-mobile">
+        <a href="imagenes/logo.png" class="enlace">
+            <img src="imagenes/logo.png" alt="">
+        </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="imagenes/menublanco.png" alt="">
+        </label>
+    </nav>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="" class="linksMobile">Iniciar sesión</a></li>
+            <li><a href="" class="linksMobile">Registrarse</a></li>
+            <li><a href="" class="linksMobile">Descargar la aplicación</a></li>
+            <li><a href="" class="linksMobile">Planes</a></li>
+            <li><a href="" class="linksMobile">Explorar canales</a></li>
+        </ul>
+    </div>
+    <hr>
+    <!-- contenedor principal -->
+    <section>
+        <h1 class="titulo">
+            Para empezar a escuchar, solo elige un plan
+        </h1>
+        <div class="info1">
+            <img src="imagenes/danger.png" alt="">
+            <p>Deezer Free no está disponible en tu país. Elige una oferta y comienza a escuchar.</p>
+        </div>
+        <div class="info2">
+            <img src="imagenes/bell.png" alt="">
+            <div class="textoinfo2">
+                <h2 class="titleInfo2">Una prueba sin estrés</h2>
+                <p>Te avisaremos 7días antes de que termine tu prueba</p>
+            </div>
+        </div>
+        <!-- card1 -->
+        <div class="card1">
+            <a href="" class="titleCard1">Premium</a>
+            <p class="p1Card1">
+                Elige y escucha cualquier canción sin anuncios y además, descarga tus favoritos y escúchalos sin conexión.
+                    <br>
+                    <br>
+                    Disfruta de sonido de alta fidelidad y escucha en todos tus dispositivos.
+            </p>
+            <a href="" class="buttonCard1">
+                PRUÉBALO GRATIS
+            </a>
+            <a href="" class="gratis">1 mes gratis</a>
+            <a href="" class="luego">
+                luego Col$17.900/mes.
+            </a>
+            <p class="p2Card1">Sin compromiso, puedes cancelar cuando quieras.</p>
+            <a href="" class="informacion">Más información</a>
+        </div>
+        <!-- desplegable1 -->
+        <div class="wrap-options">
+            <input type="checkbox" hidden id="checker_1" class="checker" />
+            <label class="button" for="checker_1"><p>Descuento anual</p>
+                <img src="imagenes/down-arrow.png" alt="">
+                <div class="color">-25%</div>
+            </label>
+            <div class="content-info">
+                <div class="content">
+                    <a href="" class="titleCard2">Premium Anual</a>
+                    <div class="info1Card2">
+                        <p>Todos los beneficios de Deezer Premium a un precio anual con descuento.</p>
+                    </div>
+                    <div class="botonCard2">
+                        <a href="">COMENZAR PRUEBA GRATUITA DE 1 MES</a>
+                    </div>
+                    <a class="gratisCard2" href="">25 % de descuento cada año</a>
+                    <a class="luegoCard2" href="">Col$214.800/año Col$161.100/año</a>
+                    <p class="compromiso">Un compromiso por 1 año.</p>
+                    <a class="linkCard2" href="">Más información</a>
+                </div>
+            </div>
+        </div>
+        <!-- desplegable2 -->
+        <div class="wrap-options">
+            <input type="checkbox" hidden id="checker_2" class="checker2" />
+            <label class="button"  id="button" for="checker_2"><p>Descuento para estudiantes</p>
+                <img src="imagenes/down-arrow.png" alt="">
+                <div class="color">-50%</div>
+            </label>
+            <div class="content-info" id="content-info2">
+                <div class="content" id="content">
+                    <a href="" class="titleCard2">Student</a>
+                    <div class="info1Card2">
+                        <p>Todos los beneficios de Deezer Premium a mitad de precio para aprovechar al máximo tu vida de estudiante.
+                        <br>
+                        <br>
+                        Disfruta de sonido de alta fidelidad y escucha en todos tus dispositivos.
+                        </p>
+                    </div>
+                    <div class="botonCard2">
+                        <a href="">PRUÉBALO GRATIS</a>
+                    </div>
+                    <a class="gratisCard2" href="">1 mes gratis</a>
+                    <a class="luegoCard2" href="">luego Col$8.450/mes.</a>
+                    <p class="compromiso">Sin compromiso, puedes cancelar cuando quieras.</p>
+                    <a class="linkCard2" href="">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
